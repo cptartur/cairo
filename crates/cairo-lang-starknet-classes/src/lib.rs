@@ -11,8 +11,8 @@ pub mod casm_contract_class;
 pub mod compiler_version;
 pub mod contract_class;
 mod contract_segmentation;
-mod felt252_serde;
-mod felt252_vec_compression;
+pub mod felt252_serde;
+pub mod felt252_vec_compression;
 pub mod keccak;
 
 pub use contract_segmentation::NestedIntList;
